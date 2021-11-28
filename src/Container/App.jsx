@@ -2,8 +2,7 @@ import React,{useState, useEffect} from "react";
 import NavBar from "../Presentational/NavBar";
 import NewTodo from "../Presentational/NewTodo";
 import TodoList from "../Presentational/TodoList";
-// import firebase from "../firebase";
-//comment
+
 
 export default function App(){
     const [todo, setTodo] = useState({});
