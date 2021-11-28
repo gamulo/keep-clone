@@ -1,10 +1,7 @@
 import React,{useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
-// import { faPalette } from '@fortawesome/free-solid-svg-icons'
-// import { faPen } from '@fortawesome/free-solid-svg-icons'
-// import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
-// import Popup from "reactjs-popup";
+
 
 
 export default function TodoList({list, handleDelete, handleChange,newList}) {
